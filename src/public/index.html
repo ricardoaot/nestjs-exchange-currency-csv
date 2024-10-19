@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Upload</title>
+</head>
+<body>
+    <h1>Upload Products CSV</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" />
+        <button type="submit">Upload</button>
+        <div id="loading" style="display: none;">Uploading and processing...</div>
+        <div id="success" style="display: none;">File uploaded successfully!</div>
+    </form>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+        const loading = document.getElementById('loading');
+        const success = document.getElementById('success');
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const formData = new FormData(form);
+            loading.style.display = 'block';
+            success.style.display = 'none';
+
+            try {
+                await fetch('/products/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                success.style.display = 'block';
+            } catch (err) {
+                alert('Error uploading file');
+            } finally {
+                loading.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
