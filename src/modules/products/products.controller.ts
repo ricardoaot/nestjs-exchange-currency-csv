@@ -37,8 +37,10 @@ export class ProductsController {
         @Query('name') name?: string,
         @Query('price') price?: number,
         @Query('expiration') expiration?: string,
+        @Query('page') page?: number,
+        @Query('pagesize') pageSize?: number,
     ) {
-        return this.productsService.getProducts(name, price, expiration);
+        return this.productsService.getProducts(name, price, expiration, page, pageSize);
     }
 }
   

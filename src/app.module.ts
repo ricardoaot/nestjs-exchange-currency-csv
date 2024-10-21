@@ -2,9 +2,10 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Product } from './modules/products/product.entity';
-import { ExchangeRate } from './modules/exchange-rates/exchange-rate.entity';
+import { Product } from './entities/product.entity';
 import { ProductsModule } from './modules/products/products.module';
+import { ExchangeRateDetail } from './entities/exchangeRateDetail.entity';
+import { ExchangeRateHeader } from './entities/exchangeRateHeader.entity';
 
 @Module({
   imports: [
@@ -15,11 +16,13 @@ import { ProductsModule } from './modules/products/products.module';
       username: 'postgres',
       password: 'root',
       database: 'flatiron',
-      entities: [Product, ExchangeRate],
-      synchronize: true, // Dev Env
+      entities: [Product, ExchangeRateHeader, ExchangeRateDetail],
+      synchronize: true, // Dev-Env
       dropSchema: true,
     }),
-    TypeOrmModule.forFeature([Product, ExchangeRate]),
+    TypeOrmModule.forFeature(
+      [Product, ExchangeRateHeader, ExchangeRateDetail]
+    ),
     ProductsModule,
   ],
   controllers: [AppController],
