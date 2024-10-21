@@ -110,8 +110,8 @@ export class ProductsService {
     const baseCurrency = this.originalCurrencyShortName
     const currencies = this.currencies
 
-    const exchangeApiUrl = 'https://v6.exchangerate-api.com/v6';
-    const apiKey = '5348654631b94573e7c09a23';
+    const exchangeApiUrl = process.env.EXCHANGE_API_URL;
+    const apiKey = process.env.EXCHANGE_API_KEY;
 
     try {
       const loadDate = new Date();
