@@ -16,7 +16,7 @@ export class Product {
   originalCurrency: string;
 
   @Column({ type: 'date' })
-  expirationDate: Date;
+  expiration: Date;
 
   @ManyToOne(() => ExchangeRateHeader, (exchangeRateHeader) => exchangeRateHeader.products)
   @JoinColumn({ name: 'idExchangeRateHeader' })

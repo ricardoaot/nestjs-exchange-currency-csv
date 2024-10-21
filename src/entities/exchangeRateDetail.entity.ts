@@ -14,7 +14,7 @@ export class ExchangeRateDetail {
   rate: number;
 
   @ManyToOne(() => ExchangeRateHeader, (header) => header.exchangeRateDetails)
-  @JoinColumn({ name: 'idExchangeRateHeader' }) // Define la columna de clave foránea
+  @JoinColumn({ name: 'idExchangeRateHeader' })
   exchangeRateHeader: ExchangeRateHeader;
   
 }

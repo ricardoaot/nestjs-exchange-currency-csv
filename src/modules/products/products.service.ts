@@ -23,56 +23,87 @@ export class ProductsService {
   ) {}
 
   async processCSV(filePath: string): Promise<any> {
-    const BATCH_SIZE = 1000
-    
-    const originalCurrencySymbol = '$'
-    
+    const BATCH_SIZE = 1000;
+    const originalCurrencySymbol = '$';
     const products = [];
+    const errors = [];
     const exchangeRateHeader = await this.getExchangeRates(); // method to get exchange rates    
-    
     let count = 0;
+    let batchNumber = 1;
 
     return new Promise((resolve, reject) => {
+        const stream = fs.createReadStream(filePath)
+            .pipe(csv({ separator: ';' }))
+            .on('data', async (row) => {
+                count++;
+                try {
+                    // Validaciones
+                    if (!row.name || !row.price || !row.expiration) {
+                        throw new Error('Missing required fields');
+                    }
 
-      const stream = fs.createReadStream(filePath)
-        .pipe(csv({ separator: ';' }))
-        .on('data', async (row) => {
-          count++;
+                    const price = parseFloat(row.price.replace(originalCurrencySymbol, ''));
+                    if (isNaN(price)) {
+                        throw new Error('Invalid price format');
+                    }
 
-          const product = {
-            name: row.name,
-            price: parseFloat(row.price.replace(originalCurrencySymbol, '')),
-            originalCurrency: this.originalCurrencyShortName,
-            expirationDate: new Date(row.expiration),
-            exchangeRateHeader
-          };
+                    const expiration = new Date(row.expiration);
+                    if (isNaN(expiration.getTime())) {
+                        throw new Error('Invalid expiration date');
+                    }
 
-          products.push(product);
+                    const product = {
+                        name: row.name,
+                        price,
+                        originalCurrency: this.originalCurrencyShortName,
+                        expiration,
+                        exchangeRateHeader
+                    };
 
-          // If we reach the batch size, we insert into the database
-          if (products.length === BATCH_SIZE) {
-            stream.pause(); // Pause the stream to insert data
-            await this.productRepository.save(products);
-            products.length = 0; 
-            stream.resume(); // resume the stream
-          }
+                    products.push(product);
 
-        })
-        .on('end', async () => {
-          // Insert rest rows at the end
-          if (products.length > 0) {
-            await this.productRepository.save(products);
-          }
+                    // If we reach the batch size, we insert into the database
+                    if (products.length === BATCH_SIZE) {
+                        stream.pause(); // Pause the stream to insert data
+                        await this.productRepository.save(products);
+                        products.length = 0; 
+                        batchNumber++; // Increment batch number
+                        stream.resume(); // resume the stream
+                    }
 
-          console.log(`File processed successfully. Total rows: ${count}`);
-          resolve(`File processed successfully. Total rows: ${count}`);        
-        })
-        .on('error', (error) => {
-          console.log('Error to proccess CSV file:', error);
-          reject(new HttpException('Error to proccess CSV file:', HttpStatus.INTERNAL_SERVER_ERROR));
-        });
+                } catch (error) {
+                    errors.push({
+                        batch: batchNumber,
+                        row: count,
+                        error: error.message,
+                        data: row
+                    });
+                }
+            })
+            .on('end', async () => {
+                // Insert rest rows at the end
+                if (products.length > 0) {
+                    await this.productRepository.save(products);
+                }
+
+                // Log errors to a file
+                if (errors.length > 0) {
+                    const errorLogStream = fs.createWriteStream('error-log.txt', { flags: 'a' });
+                    errors.forEach(err => {
+                        errorLogStream.write(`Batch: ${err.batch}, Row: ${err.row}, Error: ${err.error}, Data: ${JSON.stringify(err.data)}\n`);
+                    });
+                    errorLogStream.end();
+                }
+
+                console.log(`File processed successfully. Total rows: ${count}, Errors: ${errors.length}`);
+                resolve(`File processed successfully. Total rows: ${count}, Errors: ${errors.length}`);
+            })
+            .on('error', (error) => {
+                console.log('Error processing CSV file:', error);
+                reject(new HttpException('Error processing CSV file:', HttpStatus.INTERNAL_SERVER_ERROR));
+            });
     });
-  }
+}
 
 
   async getExchangeRates(): Promise<any> {
@@ -138,7 +169,9 @@ export class ProductsService {
     price?: number, 
     expiration?: string, 
     page: number = 1, 
-    pageSize: number = 20
+    pageSize: number = 20,
+    order: 'ASC' | 'DESC' = 'ASC',
+    orderBy: 'name' | 'price' | 'expiration' = 'name'
   ): Promise<any> {
     // Create query builder to fetch products and join related tables
     const query = this.productRepository.createQueryBuilder('product')
@@ -147,7 +180,7 @@ export class ProductsService {
   
     // Apply filters if provided
     if (name) {
-      query.andWhere('product.name LIKE :name', { name: `%${name}%` });
+      query.andWhere('UPPER(product.name) LIKE UPPER(:name)', { name: `%${name}%` });
     }
     if (price) {
       query.andWhere('product.price = :price', { price });
@@ -156,9 +189,13 @@ export class ProductsService {
       query.andWhere('product.expiration = :expiration', { expiration: new Date(expiration) });
     }
   
-    // Implement pagination with default page = 1 and pageSize = 20
-    const skip = (page - 1) * pageSize; // Calculate the number of records to skip
-    query.skip(skip).take(pageSize);    // Apply pagination using skip and take
+    // Implement pagination
+    const skip = (page - 1) * pageSize; 
+    query.skip(skip).take(pageSize);    
+
+    // Apply ordering
+    const orderByField = 'product.'+ orderBy.toString()
+    query.orderBy( orderByField , order); 
   
     // Fetch paginated products
     const [products, total] = await query.getManyAndCount(); // Get total count of records as well
@@ -172,7 +209,7 @@ export class ProductsService {
           const convertedPrice = product.price * exchangeRateDetail.rate;
           return {
             ...exchangeRateDetail,
-            convertedPrice, // Add the converted price to the details
+            convertedPrice, 
           };
         });
       }
@@ -181,11 +218,12 @@ export class ProductsService {
   
     // Return the paginated result with total count and current page data
     return {
-      total, // Total number of products available with the applied filters
-      page, // Current page number
-      pageSize, // Size of the page
-      products: productsWithConvertedPrices, // Paginated product data with converted prices
+      total, 
+      page, 
+      pageSize, 
+      products: productsWithConvertedPrices, 
     };
   }
+  
   
 }

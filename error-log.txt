@@ -1,0 +1,174 @@
+Batch: 1, Row: 26, Error: Missing required fields, Data: {"name":"Canadian Emmenthal #()","price":"$170.66","expiration":""}
+Batch: 1, Row: 36, Error: Missing required fields, Data: {"name":"Mortadella #(6762659379188385406)","price":"","expiration":"2/8/2023"}
+Batch: 1, Row: 59, Error: Missing required fields, Data: {"name":"Lettuce - Arugula #(337941023491979)","price":"","expiration":"3/3/2023"}
+Batch: 1, Row: 67, Error: Missing required fields, Data: {"name":"Muffin Chocolate Individual Wrap #(3551850836911037)","price":"","expiration":"2/12/2023"}
+Batch: 1, Row: 68, Error: Missing required fields, Data: {"name":"Lemon Pepper #(3540565699550250)","price":"$138.92","expiration":""}
+Batch: 1, Row: 71, Error: Missing required fields, Data: {"name":"","price":"$1.09","expiration":"11/30/2022"}
+Batch: 1, Row: 89, Error: Missing required fields, Data: {"name":"","price":"$113.28","expiration":"1/16/2023"}
+Batch: 1, Row: 123, Error: Missing required fields, Data: {"name":"Wine - Clavet Saint Emilion #(4911065633436224657)","price":"$134.72","expiration":""}
+Batch: 1, Row: 131, Error: Missing required fields, Data: {"name":"Puree - Guava #(1E+02)","price":"","expiration":"2/6/2023"}
+Batch: 1, Row: 134, Error: Missing required fields, Data: {"name":"Sherbet - Raspberry #(4041598206002863)","price":"","expiration":"11/23/2022"}
+Batch: 1, Row: 149, Error: Missing required fields, Data: {"name":"Galliano #(4913343890290663)","price":"$154.29","expiration":""}
+Batch: 1, Row: 164, Error: Missing required fields, Data: {"name":"","price":"","expiration":"1/6/2023"}
+Batch: 1, Row: 168, Error: Missing required fields, Data: {"name":"","price":"","expiration":"1/16/2023"}
+Batch: 1, Row: 171, Error: Missing required fields, Data: {"name":"Star Fruit #(᠎)","price":"$132.22","expiration":""}
+Batch: 1, Row: 182, Error: Missing required fields, Data: {"name":"","price":"$105.43","expiration":"2/21/2023"}
+Batch: 1, Row: 190, Error: Missing required fields, Data: {"name":"Oats Large Flake #(374288164963810)","price":"$31.15","expiration":""}
+Batch: 1, Row: 203, Error: Missing required fields, Data: {"name":"Cheese - Brie,danish #()","price":"","expiration":"1/19/2023"}
+Batch: 1, Row: 207, Error: Missing required fields, Data: {"name":"","price":"$92.97","expiration":"1/18/2023"}
+Batch: 1, Row: 209, Error: Missing required fields, Data: {"name":"Pasta - Lasagna, Dry #(4026373913208776)","price":"$141.30","expiration":""}
+Batch: 1, Row: 213, Error: Missing required fields, Data: {"name":"Pasta - Cheese / Spinach Bauletti #(3587234781985452)","price":"","expiration":"1/4/2023"}
+Batch: 1, Row: 214, Error: Missing required fields, Data: {"name":"Chicken - Base #()","price":"$184.98","expiration":""}
+Batch: 1, Row: 224, Error: Missing required fields, Data: {"name":"Coffee Guatemala Dark #(36582138341339)","price":"","expiration":"2/20/2023"}
+Batch: 1, Row: 230, Error: Missing required fields, Data: {"name":"","price":"$71.40","expiration":"2/21/2023"}
+Batch: 1, Row: 237, Error: Missing required fields, Data: {"name":"","price":"$79.30","expiration":"2/7/2023"}
+Batch: 1, Row: 247, Error: Missing required fields, Data: {"name":"","price":"$67.15","expiration":"1/15/2023"}
+Batch: 1, Row: 251, Error: Missing required fields, Data: {"name":"Ice Cream Bar - Drumstick #(3579025690003464)","price":"$191.52","expiration":""}
+Batch: 1, Row: 262, Error: Missing required fields, Data: {"name":"Lid - 10,12,16 Oz #(6762402289953897578)","price":"$85.55","expiration":""}
+Batch: 1, Row: 294, Error: Missing required fields, Data: {"name":"Snails - Large Canned #(30299683865374)","price":"$48.72","expiration":""}
+Batch: 1, Row: 296, Error: Missing required fields, Data: {"name":"","price":"$135.11","expiration":"2/13/2023"}
+Batch: 1, Row: 299, Error: Missing required fields, Data: {"name":"Wine - Saint - Bris 2002, Sauv #(١٢٣)","price":"","expiration":"1/12/2023"}
+Batch: 1, Row: 311, Error: Missing required fields, Data: {"name":"Absolut Citron #(3589609129648250)","price":"$12.89","expiration":""}
+Batch: 1, Row: 314, Error: Missing required fields, Data: {"name":"Soup Campbells Split Pea And Ham #(5112343828668085)","price":"","expiration":"11/27/2022"}
+Batch: 1, Row: 326, Error: Missing required fields, Data: {"name":"","price":"$60.77","expiration":"2/20/2023"}
+Batch: 1, Row: 328, Error: Missing required fields, Data: {"name":"","price":"$58.90","expiration":"12/31/2022"}
+Batch: 1, Row: 335, Error: Missing required fields, Data: {"name":"","price":"$53.08","expiration":"2/28/2023"}
+Batch: 1, Row: 345, Error: Missing required fields, Data: {"name":"","price":"$91.02","expiration":"1/26/2023"}
+Batch: 1, Row: 361, Error: Missing required fields, Data: {"name":"Tea - English Breakfast #(3550715358418920)","price":"","expiration":"2/26/2023"}
+Batch: 1, Row: 369, Error: Missing required fields, Data: {"name":"","price":"$126.73","expiration":"3/5/2023"}
+Batch: 1, Row: 390, Error: Missing required fields, Data: {"name":"Beef - Shank #(4917638044880699)","price":"","expiration":"1/21/2023"}
+Batch: 1, Row: 397, Error: Missing required fields, Data: {"name":"","price":"$169.91","expiration":"12/21/2022"}
+Batch: 1, Row: 405, Error: Missing required fields, Data: {"name":"Calypso - Black Cherry Lemonade #(test⁠test‫)","price":"$86.02","expiration":""}
+Batch: 1, Row: 422, Error: Missing required fields, Data: {"name":"Brandy - Bar #(3565657651937367)","price":"","expiration":"2/4/2023"}
+Batch: 1, Row: 426, Error: Missing required fields, Data: {"name":"Coriander - Ground #(3536978218035784)","price":"","expiration":"2/23/2023"}
+Batch: 1, Row: 428, Error: Missing required fields, Data: {"name":"","price":"$88.65","expiration":"2/24/2023"}
+Batch: 1, Row: 448, Error: Missing required fields, Data: {"name":"Wine - Magnotta - Pinot Gris Sr #(372301115380125)","price":"","expiration":"12/25/2022"}
+Batch: 1, Row: 449, Error: Missing required fields, Data: {"name":"Cakes Assorted #(3580417021182017)","price":"$118.25","expiration":""}
+Batch: 1, Row: 451, Error: Missing required fields, Data: {"name":"Cinnamon Rolls #(3560454478974780)","price":"$174.64","expiration":""}
+Batch: 1, Row: 457, Error: Missing required fields, Data: {"name":"Ice Cream Bar - Oreo Sandwich #(3533918731253533)","price":"$1.24","expiration":""}
+Batch: 1, Row: 477, Error: Missing required fields, Data: {"name":"Beef - Striploin Aa #(5356120202190091)","price":"","expiration":"2/14/2023"}
+Batch: 1, Row: 490, Error: Missing required fields, Data: {"name":"Coffee - Flavoured #(3562041988334353)","price":"","expiration":"11/26/2022"}
+Batch: 1, Row: 504, Error: Missing required fields, Data: {"name":"Wine La Vielle Ferme Cote Du #(6333266461103073740)","price":"","expiration":"1/5/2023"}
+Batch: 1, Row: 505, Error: Missing required fields, Data: {"name":"Dehydrated Kelp Kombo #(0.00)","price":"$76.75","expiration":""}
+Batch: 1, Row: 508, Error: Missing required fields, Data: {"name":"Wine - Red, Metus Rose #()","price":"$83.99","expiration":""}
+Batch: 1, Row: 512, Error: Missing required fields, Data: {"name":"Puree - Strawberry #()","price":"$83.41","expiration":""}
+Batch: 1, Row: 578, Error: Missing required fields, Data: {"name":"Wine - Manischewitz Concord #(3558503286766459)","price":"$118.10","expiration":""}
+Batch: 1, Row: 618, Error: Missing required fields, Data: {"name":"Star Fruit #()","price":"","expiration":"1/19/2023"}
+Batch: 1, Row: 624, Error: Missing required fields, Data: {"name":"Galliano #(3532067255743858)","price":"","expiration":"2/15/2023"}
+Batch: 1, Row: 628, Error: Missing required fields, Data: {"name":"","price":"$129.22","expiration":"12/9/2022"}
+Batch: 1, Row: 646, Error: Missing required fields, Data: {"name":"Pineapple - Golden #(5100148907359991)","price":"","expiration":"12/27/2022"}
+Batch: 1, Row: 692, Error: Missing required fields, Data: {"name":"","price":"$1.09","expiration":"3/10/2023"}
+Batch: 1, Row: 696, Error: Missing required fields, Data: {"name":"Appetizer - Spring Roll, Veg #(3575605670483440)","price":"","expiration":"12/16/2022"}
+Batch: 1, Row: 709, Error: Missing required fields, Data: {"name":"","price":"$32.11","expiration":"12/29/2022"}
+Batch: 1, Row: 720, Error: Missing required fields, Data: {"name":"","price":"$81.95","expiration":"2/24/2023"}
+Batch: 1, Row: 728, Error: Missing required fields, Data: {"name":"Longos - Burritos #(5602252071813537)","price":"","expiration":"1/11/2023"}
+Batch: 1, Row: 731, Error: Missing required fields, Data: {"name":"Kale - Red #(3578030582732015)","price":"","expiration":"1/28/2023"}
+Batch: 1, Row: 749, Error: Missing required fields, Data: {"name":"","price":"$132.18","expiration":"3/6/2023"}
+Batch: 1, Row: 751, Error: Missing required fields, Data: {"name":"Shichimi Togarashi Peppeers #()","price":"","expiration":"2/15/2023"}
+Batch: 1, Row: 765, Error: Missing required fields, Data: {"name":"","price":"$129.66","expiration":"3/4/2023"}
+Batch: 1, Row: 767, Error: Missing required fields, Data: {"name":"Wine - White, Chardonnay #(560223842707025044)","price":"$151.99","expiration":""}
+Batch: 1, Row: 775, Error: Missing required fields, Data: {"name":"Liquid Aminios Acid - Braggs #(341548841806694)","price":"","expiration":"1/20/2023"}
+Batch: 1, Row: 805, Error: Missing required fields, Data: {"name":"Sauce - Gravy, Au Jus, Mix #(6709748211902320)","price":"","expiration":"2/4/2023"}
+Batch: 1, Row: 815, Error: Missing required fields, Data: {"name":"Beans - Black Bean, Preserved #(6386453506462599)","price":"$45.78","expiration":""}
+Batch: 1, Row: 823, Error: Missing required fields, Data: {"name":"Tea - Lemon Scented #(3538871831369581)","price":"$145.88","expiration":""}
+Batch: 1, Row: 829, Error: Missing required fields, Data: {"name":"","price":"$89.51","expiration":"12/5/2022"}
+Batch: 1, Row: 836, Error: Missing required fields, Data: {"name":"","price":"$52.25","expiration":"1/7/2023"}
+Batch: 1, Row: 873, Error: Missing required fields, Data: {"name":"Potatoes - Pei 10 Oz #(3570506917647943)","price":"","expiration":"1/3/2023"}
+Batch: 1, Row: 880, Error: Missing required fields, Data: {"name":"Nori Sea Weed #(6388968862636237)","price":"","expiration":"12/1/2022"}
+Batch: 1, Row: 889, Error: Missing required fields, Data: {"name":"","price":"$80.59","expiration":"1/27/2023"}
+Batch: 1, Row: 902, Error: Missing required fields, Data: {"name":"Melon - Watermelon, Seedless #()","price":"","expiration":"11/27/2022"}
+Batch: 1, Row: 935, Error: Missing required fields, Data: {"name":"","price":"$75.33","expiration":"12/11/2022"}
+Batch: 1, Row: 951, Error: Missing required fields, Data: {"name":"Bread Crumbs - Panko #(3567758481685800)","price":"","expiration":"11/28/2022"}
+Batch: 1, Row: 952, Error: Missing required fields, Data: {"name":"","price":"$49.90","expiration":"2/9/2023"}
+Batch: 1, Row: 953, Error: Missing required fields, Data: {"name":"Vodka - Lemon, Absolut #(374622197944761)","price":"","expiration":"11/28/2022"}
+Batch: 1, Row: 954, Error: Missing required fields, Data: {"name":"Pork - Loin, Bone - In #(3533825913790689)","price":"","expiration":"1/28/2023"}
+Batch: 1, Row: 967, Error: Missing required fields, Data: {"name":"Eel - Smoked #(₀₁₂)","price":"","expiration":"2/1/2023"}
+Batch: 1, Row: 971, Error: Missing required fields, Data: {"name":"Bread - Rosemary Focaccia #(560224566099526751)","price":"","expiration":"1/20/2023"}
+Batch: 1, Row: 984, Error: Missing required fields, Data: {"name":"Red Snapper - Fresh, Whole #(3563935885136861)","price":"","expiration":"1/24/2023"}
+Batch: 1, Row: 26, Error: Missing required fields, Data: {"name":"Canadian Emmenthal #()","price":"$170.66","expiration":""}
+Batch: 1, Row: 36, Error: Missing required fields, Data: {"name":"Mortadella #(6762659379188385406)","price":"","expiration":"2/8/2023"}
+Batch: 1, Row: 59, Error: Missing required fields, Data: {"name":"Lettuce - Arugula #(337941023491979)","price":"","expiration":"3/3/2023"}
+Batch: 1, Row: 67, Error: Missing required fields, Data: {"name":"Muffin Chocolate Individual Wrap #(3551850836911037)","price":"","expiration":"2/12/2023"}
+Batch: 1, Row: 68, Error: Missing required fields, Data: {"name":"Lemon Pepper #(3540565699550250)","price":"$138.92","expiration":""}
+Batch: 1, Row: 71, Error: Missing required fields, Data: {"name":"","price":"$1.09","expiration":"11/30/2022"}
+Batch: 1, Row: 89, Error: Missing required fields, Data: {"name":"","price":"$113.28","expiration":"1/16/2023"}
+Batch: 1, Row: 123, Error: Missing required fields, Data: {"name":"Wine - Clavet Saint Emilion #(4911065633436224657)","price":"$134.72","expiration":""}
+Batch: 1, Row: 131, Error: Missing required fields, Data: {"name":"Puree - Guava #(1E+02)","price":"","expiration":"2/6/2023"}
+Batch: 1, Row: 134, Error: Missing required fields, Data: {"name":"Sherbet - Raspberry #(4041598206002863)","price":"","expiration":"11/23/2022"}
+Batch: 1, Row: 149, Error: Missing required fields, Data: {"name":"Galliano #(4913343890290663)","price":"$154.29","expiration":""}
+Batch: 1, Row: 164, Error: Missing required fields, Data: {"name":"","price":"","expiration":"1/6/2023"}
+Batch: 1, Row: 168, Error: Missing required fields, Data: {"name":"","price":"","expiration":"1/16/2023"}
+Batch: 1, Row: 171, Error: Missing required fields, Data: {"name":"Star Fruit #(᠎)","price":"$132.22","expiration":""}
+Batch: 1, Row: 182, Error: Missing required fields, Data: {"name":"","price":"$105.43","expiration":"2/21/2023"}
+Batch: 1, Row: 190, Error: Missing required fields, Data: {"name":"Oats Large Flake #(374288164963810)","price":"$31.15","expiration":""}
+Batch: 1, Row: 203, Error: Missing required fields, Data: {"name":"Cheese - Brie,danish #()","price":"","expiration":"1/19/2023"}
+Batch: 1, Row: 207, Error: Missing required fields, Data: {"name":"","price":"$92.97","expiration":"1/18/2023"}
+Batch: 1, Row: 209, Error: Missing required fields, Data: {"name":"Pasta - Lasagna, Dry #(4026373913208776)","price":"$141.30","expiration":""}
+Batch: 1, Row: 213, Error: Missing required fields, Data: {"name":"Pasta - Cheese / Spinach Bauletti #(3587234781985452)","price":"","expiration":"1/4/2023"}
+Batch: 1, Row: 214, Error: Missing required fields, Data: {"name":"Chicken - Base #()","price":"$184.98","expiration":""}
+Batch: 1, Row: 224, Error: Missing required fields, Data: {"name":"Coffee Guatemala Dark #(36582138341339)","price":"","expiration":"2/20/2023"}
+Batch: 1, Row: 230, Error: Missing required fields, Data: {"name":"","price":"$71.40","expiration":"2/21/2023"}
+Batch: 1, Row: 237, Error: Missing required fields, Data: {"name":"","price":"$79.30","expiration":"2/7/2023"}
+Batch: 1, Row: 247, Error: Missing required fields, Data: {"name":"","price":"$67.15","expiration":"1/15/2023"}
+Batch: 1, Row: 251, Error: Missing required fields, Data: {"name":"Ice Cream Bar - Drumstick #(3579025690003464)","price":"$191.52","expiration":""}
+Batch: 1, Row: 262, Error: Missing required fields, Data: {"name":"Lid - 10,12,16 Oz #(6762402289953897578)","price":"$85.55","expiration":""}
+Batch: 1, Row: 294, Error: Missing required fields, Data: {"name":"Snails - Large Canned #(30299683865374)","price":"$48.72","expiration":""}
+Batch: 1, Row: 296, Error: Missing required fields, Data: {"name":"","price":"$135.11","expiration":"2/13/2023"}
+Batch: 1, Row: 299, Error: Missing required fields, Data: {"name":"Wine - Saint - Bris 2002, Sauv #(١٢٣)","price":"","expiration":"1/12/2023"}
+Batch: 1, Row: 311, Error: Missing required fields, Data: {"name":"Absolut Citron #(3589609129648250)","price":"$12.89","expiration":""}
+Batch: 1, Row: 314, Error: Missing required fields, Data: {"name":"Soup Campbells Split Pea And Ham #(5112343828668085)","price":"","expiration":"11/27/2022"}
+Batch: 1, Row: 326, Error: Missing required fields, Data: {"name":"","price":"$60.77","expiration":"2/20/2023"}
+Batch: 1, Row: 328, Error: Missing required fields, Data: {"name":"","price":"$58.90","expiration":"12/31/2022"}
+Batch: 1, Row: 335, Error: Missing required fields, Data: {"name":"","price":"$53.08","expiration":"2/28/2023"}
+Batch: 1, Row: 345, Error: Missing required fields, Data: {"name":"","price":"$91.02","expiration":"1/26/2023"}
+Batch: 1, Row: 361, Error: Missing required fields, Data: {"name":"Tea - English Breakfast #(3550715358418920)","price":"","expiration":"2/26/2023"}
+Batch: 1, Row: 369, Error: Missing required fields, Data: {"name":"","price":"$126.73","expiration":"3/5/2023"}
+Batch: 1, Row: 390, Error: Missing required fields, Data: {"name":"Beef - Shank #(4917638044880699)","price":"","expiration":"1/21/2023"}
+Batch: 1, Row: 397, Error: Missing required fields, Data: {"name":"","price":"$169.91","expiration":"12/21/2022"}
+Batch: 1, Row: 405, Error: Missing required fields, Data: {"name":"Calypso - Black Cherry Lemonade #(test⁠test‫)","price":"$86.02","expiration":""}
+Batch: 1, Row: 422, Error: Missing required fields, Data: {"name":"Brandy - Bar #(3565657651937367)","price":"","expiration":"2/4/2023"}
+Batch: 1, Row: 426, Error: Missing required fields, Data: {"name":"Coriander - Ground #(3536978218035784)","price":"","expiration":"2/23/2023"}
+Batch: 1, Row: 428, Error: Missing required fields, Data: {"name":"","price":"$88.65","expiration":"2/24/2023"}
+Batch: 1, Row: 448, Error: Missing required fields, Data: {"name":"Wine - Magnotta - Pinot Gris Sr #(372301115380125)","price":"","expiration":"12/25/2022"}
+Batch: 1, Row: 449, Error: Missing required fields, Data: {"name":"Cakes Assorted #(3580417021182017)","price":"$118.25","expiration":""}
+Batch: 1, Row: 451, Error: Missing required fields, Data: {"name":"Cinnamon Rolls #(3560454478974780)","price":"$174.64","expiration":""}
+Batch: 1, Row: 457, Error: Missing required fields, Data: {"name":"Ice Cream Bar - Oreo Sandwich #(3533918731253533)","price":"$1.24","expiration":""}
+Batch: 1, Row: 477, Error: Missing required fields, Data: {"name":"Beef - Striploin Aa #(5356120202190091)","price":"","expiration":"2/14/2023"}
+Batch: 1, Row: 490, Error: Missing required fields, Data: {"name":"Coffee - Flavoured #(3562041988334353)","price":"","expiration":"11/26/2022"}
+Batch: 1, Row: 504, Error: Missing required fields, Data: {"name":"Wine La Vielle Ferme Cote Du #(6333266461103073740)","price":"","expiration":"1/5/2023"}
+Batch: 1, Row: 505, Error: Missing required fields, Data: {"name":"Dehydrated Kelp Kombo #(0.00)","price":"$76.75","expiration":""}
+Batch: 1, Row: 508, Error: Missing required fields, Data: {"name":"Wine - Red, Metus Rose #()","price":"$83.99","expiration":""}
+Batch: 1, Row: 512, Error: Missing required fields, Data: {"name":"Puree - Strawberry #()","price":"$83.41","expiration":""}
+Batch: 1, Row: 578, Error: Missing required fields, Data: {"name":"Wine - Manischewitz Concord #(3558503286766459)","price":"$118.10","expiration":""}
+Batch: 1, Row: 618, Error: Missing required fields, Data: {"name":"Star Fruit #()","price":"","expiration":"1/19/2023"}
+Batch: 1, Row: 624, Error: Missing required fields, Data: {"name":"Galliano #(3532067255743858)","price":"","expiration":"2/15/2023"}
+Batch: 1, Row: 628, Error: Missing required fields, Data: {"name":"","price":"$129.22","expiration":"12/9/2022"}
+Batch: 1, Row: 646, Error: Missing required fields, Data: {"name":"Pineapple - Golden #(5100148907359991)","price":"","expiration":"12/27/2022"}
+Batch: 1, Row: 692, Error: Missing required fields, Data: {"name":"","price":"$1.09","expiration":"3/10/2023"}
+Batch: 1, Row: 696, Error: Missing required fields, Data: {"name":"Appetizer - Spring Roll, Veg #(3575605670483440)","price":"","expiration":"12/16/2022"}
+Batch: 1, Row: 709, Error: Missing required fields, Data: {"name":"","price":"$32.11","expiration":"12/29/2022"}
+Batch: 1, Row: 720, Error: Missing required fields, Data: {"name":"","price":"$81.95","expiration":"2/24/2023"}
+Batch: 1, Row: 728, Error: Missing required fields, Data: {"name":"Longos - Burritos #(5602252071813537)","price":"","expiration":"1/11/2023"}
+Batch: 1, Row: 731, Error: Missing required fields, Data: {"name":"Kale - Red #(3578030582732015)","price":"","expiration":"1/28/2023"}
+Batch: 1, Row: 749, Error: Missing required fields, Data: {"name":"","price":"$132.18","expiration":"3/6/2023"}
+Batch: 1, Row: 751, Error: Missing required fields, Data: {"name":"Shichimi Togarashi Peppeers #()","price":"","expiration":"2/15/2023"}
+Batch: 1, Row: 765, Error: Missing required fields, Data: {"name":"","price":"$129.66","expiration":"3/4/2023"}
+Batch: 1, Row: 767, Error: Missing required fields, Data: {"name":"Wine - White, Chardonnay #(560223842707025044)","price":"$151.99","expiration":""}
+Batch: 1, Row: 775, Error: Missing required fields, Data: {"name":"Liquid Aminios Acid - Braggs #(341548841806694)","price":"","expiration":"1/20/2023"}
+Batch: 1, Row: 805, Error: Missing required fields, Data: {"name":"Sauce - Gravy, Au Jus, Mix #(6709748211902320)","price":"","expiration":"2/4/2023"}
+Batch: 1, Row: 815, Error: Missing required fields, Data: {"name":"Beans - Black Bean, Preserved #(6386453506462599)","price":"$45.78","expiration":""}
+Batch: 1, Row: 823, Error: Missing required fields, Data: {"name":"Tea - Lemon Scented #(3538871831369581)","price":"$145.88","expiration":""}
+Batch: 1, Row: 829, Error: Missing required fields, Data: {"name":"","price":"$89.51","expiration":"12/5/2022"}
+Batch: 1, Row: 836, Error: Missing required fields, Data: {"name":"","price":"$52.25","expiration":"1/7/2023"}
+Batch: 1, Row: 873, Error: Missing required fields, Data: {"name":"Potatoes - Pei 10 Oz #(3570506917647943)","price":"","expiration":"1/3/2023"}
+Batch: 1, Row: 880, Error: Missing required fields, Data: {"name":"Nori Sea Weed #(6388968862636237)","price":"","expiration":"12/1/2022"}
+Batch: 1, Row: 889, Error: Missing required fields, Data: {"name":"","price":"$80.59","expiration":"1/27/2023"}
+Batch: 1, Row: 902, Error: Missing required fields, Data: {"name":"Melon - Watermelon, Seedless #()","price":"","expiration":"11/27/2022"}
+Batch: 1, Row: 935, Error: Missing required fields, Data: {"name":"","price":"$75.33","expiration":"12/11/2022"}
+Batch: 1, Row: 951, Error: Missing required fields, Data: {"name":"Bread Crumbs - Panko #(3567758481685800)","price":"","expiration":"11/28/2022"}
+Batch: 1, Row: 952, Error: Missing required fields, Data: {"name":"","price":"$49.90","expiration":"2/9/2023"}
+Batch: 1, Row: 953, Error: Missing required fields, Data: {"name":"Vodka - Lemon, Absolut #(374622197944761)","price":"","expiration":"11/28/2022"}
+Batch: 1, Row: 954, Error: Missing required fields, Data: {"name":"Pork - Loin, Bone - In #(3533825913790689)","price":"","expiration":"1/28/2023"}
+Batch: 1, Row: 967, Error: Missing required fields, Data: {"name":"Eel - Smoked #(₀₁₂)","price":"","expiration":"2/1/2023"}
+Batch: 1, Row: 971, Error: Missing required fields, Data: {"name":"Bread - Rosemary Focaccia #(560224566099526751)","price":"","expiration":"1/20/2023"}
+Batch: 1, Row: 984, Error: Missing required fields, Data: {"name":"Red Snapper - Fresh, Whole #(3563935885136861)","price":"","expiration":"1/24/2023"}
