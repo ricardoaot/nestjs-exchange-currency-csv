@@ -17,8 +17,9 @@ import { ExchangeRateHeader } from './entities/exchangeRateHeader.entity';
       password: 'root',
       database: 'flatiron',
       entities: [Product, ExchangeRateHeader, ExchangeRateDetail],
-      synchronize: true, // Dev-Env
-      dropSchema: true,
+      dropSchema: false,
+      synchronize:false,
+      migrations: ['src/migrations/*.ts'], 
     }),
     TypeOrmModule.forFeature(
       [Product, ExchangeRateHeader, ExchangeRateDetail]
